@@ -19,7 +19,7 @@ function App() {
       <input type="text" onChange={(event) => setCep(event.target.value)} />
       <button onClick={getCep}>Ver Endereço</button>
 
-      <h1>Endereço do endereço</h1>
+      <h1>Dados do endereço</h1>
       <>
         <p>Rua: {endereco?.logradouro}</p>
         <p>Bairro: {endereco?.bairro}</p>
