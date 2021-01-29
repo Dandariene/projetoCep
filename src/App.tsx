@@ -27,7 +27,6 @@ function App() {
         <p>UF: {endereco?.uf}</p>
         <p>CEP: {endereco?.cep}</p>
         <p>DDD: {endereco?.ddd}</p>
-        <p>IBGE: {endereco?.ibge}</p>
       </>
 
     </div>
